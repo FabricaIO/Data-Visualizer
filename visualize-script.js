@@ -91,11 +91,6 @@ function lineChart({value, values}) {
 		.attr('r', 5.5)
 		.style("opacity", 0);
 
-
-	if (color_index > 8) {
-		color_index = 0;
-	}
-
 	// Draw the line
 	svg.append("path")
 		.attr("fill", "none")
@@ -165,6 +160,11 @@ function lineChart({value, values}) {
 		focus.style("opacity", 0)
 		focusText.style("opacity", 0)
 	}
-		
-	color_index++;
+	
+	// Cycle to next color in pallette
+	if (color_index >= 8) {
+		color_index = 0;
+	} else {
+		color_index++;
+	}
 }
