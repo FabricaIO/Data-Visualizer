@@ -21,4 +21,4 @@ To view the graphs of all sensor parameters visit the `/visualize.html` path. Th
 That's it! You'll see graphs of all the sensor parameters. The Refresh Data button will update the graphs with any new data collected (the graphs will not refresh automatically).
 
 > [!IMPORTANT]
-> Make sure you enable the LocalDataLogger from the Device Manager, and that you enable tasks from the Hub Configuration. If no data has been collected then no graphs will be rendered. The longest period you set for either the Sampling Period for the LocalDataLogger or the device period will set how frequently data points are collected.
+> Make sure you enable the LocalDataLogger from the Device Manager, and that you enable tasks from the Hub Configuration. If no data has been collected then no graphs will be rendered. The longest period you set for either the Sampling Period for the LocalDataLogger or the device taskPeriod will set how frequently data points are collected.
