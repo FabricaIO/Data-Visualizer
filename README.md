@@ -14,7 +14,7 @@ Using the Storage Manager on your device, upload the following files from this r
 
 ## Usage
 
-It's strongly recommended to make sure the time is set correctly on your device. By default this is done by NTP if connecting the device to your WiFi and internet, or you can set the time manually from the home page. While this can work without setting the time, the data points recorded won't link to the correct date and time.
+It's strongly recommended to make sure the time is set correctly on your device. By default this is done by NTP if connecting the device to your WiFi and internet, or you can set the time manually from the home page or use an external [RTC module](https://github.com/FabricaIO/actor-DFDS1307RTC). While this can work without setting the time, the data points recorded won't link to the correct date and time.
 
 To view the graphs of all sensor parameters visit the `/visualize.html` path. That is, `http://<device_address>/visualize.html`, replacing `<device_address>` with the web interface address of your device.
 
